@@ -1,7 +1,7 @@
 # 3A_15_Rafli-Alfian-Nilofar_Tugas4
 
 | Code |
-| ---  |
+| :------:  |
 | import sys.process._
 val output = "hadoop fs -ls" !! // notice the �!!� operator
 println("result = "+output)  |
