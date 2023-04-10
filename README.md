@@ -5,6 +5,7 @@
 | import sys.process._
 val output = "hadoop fs -ls" !! // notice the �!!� operator
 println("result = "+output)  |
+
 | Output |
 | :------:  |
 | ![image](https://user-images.githubusercontent.com/95726593/231009979-58557000-35b5-45b9-8cdc-a26407abba02.png)
