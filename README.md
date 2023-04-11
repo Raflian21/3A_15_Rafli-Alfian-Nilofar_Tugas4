@@ -19,8 +19,7 @@
 
 | BroadCast.py |
 | ------  |
-| broadcastVar = sc.broadcast(list(range(1, 100)))
-broadcastVar.value |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/73c95b4a4303174692deddaa6601d4f625aef7c3/BroadCast.py#L1-L2 |
 | ![image](https://user-images.githubusercontent.com/95726593/231029852-4b496b87-d352-4fe8-81e4-19ff6cc6bd73.png) |
 
 | PairRDD.py |
