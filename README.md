@@ -64,6 +64,5 @@ cached_log = error_log.cache()
 #Now perform an action -  count
 print �Total number of error records are %s� % (cached_log.count())
 #Now find the number of lines with 
-print �Number of product pages visited that have Errors is %s� % (cached_log.filter(lambda x: �product� in x).count()) 
-  |
+print �Number of product pages visited that have Errors is %s� % (cached_log.filter(lambda x: �product� in x).count()) |
 | ![image](https://user-images.githubusercontent.com/95726593/231031238-98ec6b4f-c7b4-41e7-ba46-1989a3b1aad3.png) |
