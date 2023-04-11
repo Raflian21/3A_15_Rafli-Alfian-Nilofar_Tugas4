@@ -42,3 +42,27 @@ myPairRDD.keys().collect()
 myPairRDD.values().collect()
 #[2, 4, 3] |
 | ![image](https://user-images.githubusercontent.com/95726593/231030025-78df7a0b-8e2c-46c1-937e-50b27b65ed0d.png) |
+
+| LogAnalytics.py |
+| ------  |
+| import sys
+from operator import  add
+from pyspark import SparkContext
+# Check for number of inputs passed from command line
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print >> sys.stderr, "Usage: access_log.py <file>"
+        exit(-1)
+# Intialize the Spark Context with app name
+sc = SparkContext(appName="Log Analytics")
+# Get the lines from the textfile, create 4 partitions
+access_log = sc.textFile(sys.argv[1], 4)
+#Filter Lines with ERROR only
+error_log = access_log.filter(lambda x: "ERROR" in x)
+# Cache error log in memory
+cached_log = error_log.cache()
+# Now perform an action -  count
+print �Total number of error records are %s� % (cached_log.count())
+# Now find the number of lines with 
+print �Number of product pages visited that have Errors is %s� % (cached_log.filter(lambda x: �product� in x).count())  |
+| ![image](https://user-images.githubusercontent.com/95726593/231031238-98ec6b4f-c7b4-41e7-ba46-1989a3b1aad3.png) |
