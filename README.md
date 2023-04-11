@@ -21,6 +21,5 @@ println("result = "+res) // result can be zero or non-zero |
 | myaccum = sc.accumulator(0)
 myrdd = sc.parallelize(range(1,100))
 myrdd.foreach(lambda value: myaccum.add(value))
-print myaccum.value
- |
-| ![image](https://user-images.githubusercontent.com/95726593/231029612-a6d17169-7f64-4206-a6c1-3ea3dcffcbdd.png)|
+print myaccum.value|
+| ![image](https://user-images.githubusercontent.com/95726593/231029612-a6d17169-7f64-4206-a6c1-3ea3dcffcbdd.png) |
