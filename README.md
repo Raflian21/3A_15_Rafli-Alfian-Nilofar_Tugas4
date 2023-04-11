@@ -24,15 +24,7 @@
 
 | PairRDD.py |
 | ------  |
-| mylist = ["my", "pair", "rdd"]
-myRDD = sc.parallelize(mylist)
-myPairRDD = myRDD.map(lambda s: (s, len(s)))
-myPairRDD.collect()
-#[('my', 2), ('pair', 4), ('rdd', 3)]
-myPairRDD.keys().collect()
-#['my', 'pair', 'rdd']
-myPairRDD.values().collect()
-#[2, 4, 3] |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/daa32022c38d2b9bdcd50a8a6df5bdc95b8933ef/PairRDD.py#L1-L11 |
 | ![image](https://user-images.githubusercontent.com/95726593/231030025-78df7a0b-8e2c-46c1-937e-50b27b65ed0d.png) |
 
 | LogAnalytics.py |
