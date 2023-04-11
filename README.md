@@ -50,9 +50,9 @@ from operator import  add
 from pyspark import SparkContext
 #Check for number of inputs passed from command line
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print >> sys.stderr, "Usage: access_log.py <file>"
-        exit(-1)
+if len(sys.argv) != 2:
+print >> sys.stderr, "Usage: access_log.py <file>"
+exit(-1)
 #Intialize the Spark Context with app name
 sc = SparkContext(appName="Log Analytics")
 #Get the lines from the textfile, create 4 partitions
