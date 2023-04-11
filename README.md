@@ -23,3 +23,9 @@ myrdd = sc.parallelize(range(1,100))
 myrdd.foreach(lambda value: myaccum.add(value))
 print myaccum.value|
 | ![image](https://user-images.githubusercontent.com/95726593/231029612-a6d17169-7f64-4206-a6c1-3ea3dcffcbdd.png) |
+
+| BroadCast.py |
+| ------  |
+| broadcastVar = sc.broadcast(list(range(1, 100)))
+broadcastVar.value |
+| ![image](https://user-images.githubusercontent.com/95726593/231029852-4b496b87-d352-4fe8-81e4-19ff6cc6bd73.png) |
