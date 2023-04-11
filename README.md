@@ -14,10 +14,7 @@
 
 | Accumulator.py |
 | ------  |
-| myaccum = sc.accumulator(0)
-myrdd = sc.parallelize(range(1,100))
-myrdd.foreach(lambda value: myaccum.add(value))
-print myaccum.value|
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/27ee8696c1d1dff6088b71e4cfe72dd477e3adbc/Accumulator.py#L1-L4 |
 | ![image](https://user-images.githubusercontent.com/95726593/231029612-a6d17169-7f64-4206-a6c1-3ea3dcffcbdd.png) |
 
 | BroadCast.py |
