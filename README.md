@@ -9,9 +9,7 @@
 
 | SystemCommandsReturnCode.scala |
 | ------  |
-| import sys.process._
-val res = "ls /tmp" ! // notice the �!� operator 
-println("result = "+res) // result can be zero or non-zero |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/ddf78d46c4d6fc6290e216a7ea7e8192e60eb723/SystemCommandsReturnCode.scala#L1-L3 |
 | ![image](https://user-images.githubusercontent.com/95726593/231028674-4c5b7667-1c61-4377-a8d1-4206c710bd26.png)![image](https://user-images.githubusercontent.com/95726593/231028718-932c4486-685a-4ba5-93f3-5670e13d5629.png)|
 
 | Accumulator.py |
