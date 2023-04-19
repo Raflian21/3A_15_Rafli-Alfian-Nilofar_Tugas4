@@ -34,5 +34,5 @@
 
 | 7. WordCount.py |
 | ------  |
-| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/5f572711294d9de182c86587dbbd803a825c8cac/LogAnalytics.py#L1-L27 |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/90f36e1a876d521c95c06028e024be0a4047bca6/WordCount.py#L1-L8 |
 | ![image](https://user-images.githubusercontent.com/95726593/233122626-f6e547cd-3fb2-42e2-815b-a5e4d9065285.png) |
