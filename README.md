@@ -1,5 +1,8 @@
-# 3A_15_Rafli-Alfian-Nilofar_Tugas4
+# Nama  : Rafli Alfian Nilofar
+# Kelas : TI - 3A
+# Absen : 15
 
+# Tugas 4
 | 1. SystemCommandsOutput.scala |
 | ------  |
 | https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/d8c1c4c4e7504b66a917b414926c5d6ae300304e/SystemCommandsOutput.scala#L1-L3 |
