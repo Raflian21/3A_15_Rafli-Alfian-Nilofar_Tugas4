@@ -31,3 +31,8 @@
 | ------  |
 | https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/5f572711294d9de182c86587dbbd803a825c8cac/LogAnalytics.py#L1-L27 |
 | ![image](https://user-images.githubusercontent.com/95726593/231031238-98ec6b4f-c7b4-41e7-ba46-1989a3b1aad3.png) |
+
+| 7. WordCount.py |
+| ------  |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/5f572711294d9de182c86587dbbd803a825c8cac/LogAnalytics.py#L1-L27 |
+| ![image](https://user-images.githubusercontent.com/95726593/233122626-f6e547cd-3fb2-42e2-815b-a5e4d9065285.png) |
