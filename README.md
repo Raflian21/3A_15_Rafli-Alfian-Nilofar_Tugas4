@@ -19,18 +19,18 @@
 | ------  |
 | https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/27ee8696c1d1dff6088b71e4cfe72dd477e3adbc/Accumulator.py#L1-L4 |
 | ![image](https://user-images.githubusercontent.com/95726593/231029612-a6d17169-7f64-4206-a6c1-3ea3dcffcbdd.png) |
-| parallelize metode pada objek SparkContext yang mengubah koleksi objek menjadi RDD (Resilient Distributed Datasets) yang terdistribusi secara paralel di beberapa node dalam kluster Spark. |
-| accumulator objek di Spark yang dapat diakses secara paralel dan dapat digunakan untuk menjalankan operasi agregasi seperti penghitungan jumlah atau rata-rata dalam lingkungan yang terdistribusi. |
+| parallelize merupakan metode pada objek SparkContext yang mengubah koleksi objek menjadi RDD (Resilient Distributed Datasets) yang terdistribusi secara paralel di beberapa node dalam kluster Spark. |
+| accumulator merupakan suatu objek di Spark yang dapat diakses secara paralel dan dapat digunakan untuk menjalankan operasi agregasi seperti penghitungan jumlah atau rata-rata dalam lingkungan yang terdistribusi. |
 | value berfungsi untuk mengembalikan nilai dalam variabel yang diakses secara bersamaan dalam lingkungan yang terdistribusi. |
-| lambda fungsi anonim dalam Python yang digunakan untuk operasi pemetaan atau filtering pada data RDD. | 
+| lambda merupakan fungsi anonim dalam Python yang digunakan untuk operasi pemetaan atau filtering pada data RDD. | 
 
 | 4. BroadCast.py |
 | ------  |
 | https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/73c95b4a4303174692deddaa6601d4f625aef7c3/BroadCast.py#L1-L2 |
 | ![image](https://user-images.githubusercontent.com/95726593/231029852-4b496b87-d352-4fe8-81e4-19ff6cc6bd73.png) |
-|range fungsi dalam Python yang menghasilkan urutan angka dalam rentang tertentu|
-|broadcast mekanisme dalam Spark untuk mengirim data besar ke setiap node dalam kluster tanpa mengulanginya untuk setiap tugas pemrosesan.|
-|list struktur data dalam Python yang digunakan untuk menyimpan kumpulan elemen yang terurut dan dapat diakses dengan indeks.|
+|range merupakan fungsi dalam Python yang menghasilkan urutan angka dalam rentang tertentu|
+|broadcast adalah mekanisme dalam Spark untuk mengirim data besar ke setiap node dalam kluster tanpa mengulanginya untuk setiap tugas pemrosesan.|
+|list merupakan struktur data dalam Python yang digunakan untuk menyimpan kumpulan elemen yang terurut dan dapat diakses dengan indeks.|
 
 | 5. PairRDD.py |
 | ------  |
