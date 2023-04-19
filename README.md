@@ -39,5 +39,5 @@
 
 | 8. UnderstandingRDDs.py |
 | ------  |
-| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/90f36e1a876d521c95c06028e024be0a4047bca6/WordCount.py#L1-L8 |
+| https://github.com/Raflian21/3A_15_Rafli-Alfian-Nilofar_Tugas4/blob/a06ec570da5aea44310096e070aadd7546cdaeca/UnderstandingRDDs.py#L11-L40 |
 | ![image](https://user-images.githubusercontent.com/95726593/233124121-53147de1-ac72-40f8-93c4-c8b593f64057.png) |
