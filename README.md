@@ -1,6 +1,4 @@
-# Nama  : Rafli Alfian Nilofar
-# Kelas : TI - 3A
-# Absen : 15
+# Rafli Alfian Nilofar / TI - 3A / 15
 
 # Tugas 4
 | 1. SystemCommandsOutput.scala |
